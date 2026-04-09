@@ -1,26 +1,28 @@
-Evidencia: GA7-220501096-AA2-EV01
-
-Aprendiz: Gabriel
+PROYECTO: Control de Inventario - Almacen Job
 
 Descripción:
-Este proyecto corresponde a un CRUD desarrollado en Java utilizando JDBC, el cual permite realizar las siguientes operaciones:
+Este proyecto corresponde a la evidencia GA7-220501096-AA2-EV01. Se desarrolla un módulo de software con conexión a base de datos MySQL utilizando JDBC.
 
-* Insertar datos
-* Consultar registros
-* Actualizar información
-* Eliminar registros
+Funcionalidades:
+- Insertar productos
+- Consultar productos
+- Actualizar productos
+- Eliminar productos
 
-Tecnologías usadas:
+Tecnologías:
+- Java
+- MySQL
+- JDBC
+- XAMPP
 
-* Java
-* JDBC
-* MySQL
+Estructura:
+- conexion: conexión a la base de datos
+- modelo: clase Producto
+- dao: clase ProductoDAO (CRUD)
+- TestConexion: clase principal
 
-Instrucciones de ejecución:
+Clase principal:
+TestConexion.java
 
-1. Crear la base de datos usando el archivo script.sql
-2. Configurar usuario y contraseña en la clase Conexion.java
-3. Ejecutar la clase Main.java
-
-Observaciones:
-El sistema funciona correctamente y cumple con todos los requerimientos solicitados.
+Autor:
+Hector Gabriel Vasquez Brand
